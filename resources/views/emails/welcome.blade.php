@@ -8,7 +8,7 @@
 </head>
 <body>
     
-    <h1>Welcome to Li's laracasts test!</h1>
+    <h1>Welcome to Li's laracasts test, {{ $user->name }}</h1>
 
 </body>
-</html>
+</html> 

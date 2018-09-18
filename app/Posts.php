@@ -69,6 +69,11 @@ public static function archives()
         ->toArray();
 }
 
+public function tags()
+{
+    return $this->belongsToMany(Tag::class);
+}
+
    public function user()
    {
        return $this->belongsTo(User::class);
